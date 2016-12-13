@@ -19,7 +19,7 @@ var theList = $('ul');
     if(event.which === 13){ // when the return key is pressed
       var theVal = $(this).val();
       $(this).val('')
-      $('ul').append('<li><span>X</span> ' + theVal + '</li>')
+      $('ul').append('<li><span><i class="fa fa-trash"></i></span> ' + theVal + '</li>')
     }
   })
 
